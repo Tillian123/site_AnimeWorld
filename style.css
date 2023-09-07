@@ -1,0 +1,158 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/*font-family: 'Bungee', cursive;*/
+
+body{
+    font-family: 'Bungee', cursive;
+}
+
+header{
+    background-color: #818ed4;
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mm a{
+    margin-bottom: 15px;
+    margin-right: 25px;
+}
+.mm img{
+    height: 25px; 
+}
+
+.menu{
+    background-color: #5c6abb;
+}
+
+.menu ul{
+    display: flex;
+}
+
+.menu a{
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: background-color 0.5s, border-bottom-color 0.5s; 
+    border-bottom: 5px solid transparent;
+    
+}
+
+.menu li{
+    display: inline;
+}
+
+.menu a:hover{
+    background-color: #4051b0;
+    color: rgb(232, 216, 216);
+    border-bottom-color: #8B4513;
+}
+
+.container{ 
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.principal{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+h2{
+    margin-top: 35px;
+}
+
+
+.destaque{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.destaque > a{
+    text-decoration: none;
+}
+
+.destaque a:visited{
+    color: inherit;
+}
+
+.image > img{
+    width: 350px;
+}
+
+.image > p{
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+.preco p{
+    text-align: center;
+    font-size: 0.9rem; 
+}
+
+.valor{
+    font-size: 1.1rem;
+    color: #4051b0;
+    font-weight: bolder;
+}
+
+#contact .container{
+    display: block;
+}
+
+.contact-methods{
+    display: flex;
+    justify-content: space-between;
+}
+
+form input, textarea, button{
+    display: block;
+    width: 320px;
+    margin: 8px;
+    padding: 8px;
+}
+
+form textarea{
+    resize: none;
+    height: 180px;
+}
+
+form button{
+    background-color: #4051b0;
+    font-family: 'Bungee', cursive;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover{
+    background-color: #5c6abb;
+}
+
+footer{
+    background-color: #818ed4;
+    color: rgb(232, 216, 216);
+    padding: 16px 0;
+}
+
+
+
+
+
+
